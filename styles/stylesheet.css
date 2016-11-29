@@ -1,0 +1,23 @@
+/* Start Body Styles */
+p {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #818181; 
+}
+
+/* Button 1 */
+.btn {
+  background-color: dodgerblue;
+  font-family: 'Pathway Gothic One', sans-serif;
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 1em; 
+}
