@@ -2,40 +2,103 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles/5cols.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/8cols.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/html5reset.css" media="all">
+    <script src="https://use.fontawesome.com/8b555f9e33.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/col.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
     <title>Straight to the Point</title>
   </head>
+  
   <body>
-    <header>
-      <img class="Site-Logo" src="images/logo.jpg" alt="STPA-logo">
-      <h1 class="BizName">Straight to the Point Archery</h1>
-      <ul class="topnav">
-        <li><a href="#">Classes</a></li>
-        <li><a href="#">Lessons</a></li>
-        <li><a href="#">Instructors</a></li>
-        <li><a href="#">About Us</a></li>
-        <li class=schedule><a href="#">Schedule Now!</a></li>
-      </ul>  
-    </header>
-    <section>
-      <img class="class" src="images/class1.jpg" alt="Class-1">
-    </section>
-    <section>
-      <ul class="courses">
-        <li><a href="#">A101 Information</a></li>
-        <li><a href="#">A102 Information</a></li>
-        <li><a href="#">A103 Information</a></li>
-        <li><a href="#">Private Lesson Information</a></li>
-      </ul>
-    </section>
-    <article class="policy">
-      <h3>Straight to the Point Nondiscriminatory Policy:</h3>
-      <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>  
-    </article>
+      <header class="page-header">
+        <img class="logo" src="images/logo.png" alt="STPA-logo">
+        <h1 class="Site-Name">Straight to the Point Archery</h1>
+        <p class="cta"><a class="btn" href="#">Schedule Now!</a></p>
+      </header>
+    
+    <nav>
+        <ul class="topnav">
+          <li><a href="#">Classes</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Instructors</a></li>
+          <li><a href="about-us.html">Meet Our Team</a></li>
+        </ul>
+      </nav> 
+  
+    <div class="section group">
+      <section class="courses">
+               
+        <div class="col span_2_of_8">
+          <img class="class" src="images/logo2.png" alt="class-logo">
+            <h2 class="info-header"><a href="#">A101 Information</a></h2>
+            <ul class="class-info">
+              <li class="name"><h3>Name:</h3>Basic Archery</li>
+              <li class="about"><h3>About:</h3> A101 is a basic archery course that focuses on beginning archery safety, skills, and drills. Participants learn about archery form, range rules and etiquette. Form training and fun games are introduced in this class.  Equipment will be provided with exception of safety kit.</li>
+              <li class="schedule"><h3>Schedule:</h3> Mon &amp; Wed, 4-5 PM</li>
+              <li><h3>Cost:</h3>3 lessons, 1 hour each of expert guidance by a USA Archery-certified coach.</li>
+            </ul>
+        </div>
+        
+        <div class="col span_2_of_8">
+          <img class="class" src="images/logo2.png" alt="class-logo">
+          <h2 class="info-header"><a href="#">A102 Information</a></h2>
+            <ul class="class-info">
+              <li class="name"><h3>Name:</h3>Intermediate Archery</li>
+              <li class="about"><h3>About:</h3> A102 is an intermediate archery course that focuses on intermediate archery safety, form, and introduces new equipment styles of shooting Recurve and Compound bows. Fun games and form reinforcement techniques are emphasized in this class.  Equipment will be provided with exception of safety kit.</li>
+              <li class="schedule"><h3>Schedule:</h3> Tues &amp; Thurs, 4-5 PM</li>
+              <li><h3>Cost:</h3>$120/month</li>
+              <li><h3>Prerequisite:</h3>A101 recommendation from private lesson instructor.  Minimum age:  7 years old.</li>
+            </ul>
+        </div>
+        
+        <div class="col span_2_of_8">
+          <img class="class" src="images/logo2.png" alt="class-logo">
+          <h2><a href="#">A103 Information</a></h2>
+          <ul class="class-info">
+            <li class="name"><h3>Name:</h3>Advanced Archery</li>
+            <li class="about"><h3>About:</h3> After taking the A101, A102 classes, students are eligible to participate in the A103 class. This class focuses on a continued education towards tournament styles of shooting used by many archery tournament associations from around the world. Along with the tournament lesson, participants receive continued knowledge around their shooting form and advice on personal equipment selections.  Equipment will be provided with exception of safety kit.</li>
+            <li class="schedule"><h3>Schedule:</h3> Tues &amp; Thurs, 5-6 PM</li>
+            <li><h3>Cost:</h3>$120/month</li>
+            <li><h3>Prerequisite:</h3>A101/A102 or equivalent. Minimum age: 7 years old.</li>
+          </ul>
+        </div>
+        
+        <div class="col span_2_of_8">
+          <img class="class" src="images/logo2.png" alt="class-logo">
+          <h2><a href="#">Private Lesson Information</a></h2>
+          <ul class="class-info">
+            <li class="name"><h3>Type:</h3>Single Lesson</li>
+              <li class="about"><h3>About:</h3>Coaching with USA Archery-certified Coach.  See Private Lesson Page for additional details.</li>
+              <li><h3>Price:</h3>Prices vary by number of sessions.</li>
+          </ul>
+        </div>
+    
+        <article class="policy">
+          <p class="policy-title">Straight to the Point Nondiscriminatory Policy:</p>
+          <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>  
+        </article>
+      </section>
+    </div>
+   
     <footer>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86676.7026766049!2d-122.52527902864728!3d47.24305115996937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb1484155fb73edc!2sSeven+Meadows+Archery!5e0!3m2!1sen!2sus!4v1481144528088" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+      
+      <ul class="contact">
+        <li><h4>Address:</h4>4335 Pacific Ave B, Tacoma, WA 98418</li>
+        <li><h4>Phone:</h4>(253)555-1010</li>
+        <li><a href="mailto:archery-education@example.com">E-Mail Us</a></li>
+      </ul>
+      
       <ul class="social">
-        <li><a href="archery-education@example.com">E-Mail Us</a></li>
-        <li>528 Nock Point Ln, Tacoma, WA 98412</li>
-        <li>(253)555-1010</li>
+        <li><a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a></li>
+        <li><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+        <li><i class="fa fa-google-plus-official" aria-hidden="true"></i></li>
+        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
       </ul>
     </footer>
   </body>
+  </html>

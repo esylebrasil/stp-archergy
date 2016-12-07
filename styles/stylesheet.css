@@ -1,7 +1,119 @@
+/* Responsive Styling */
+.col { 
+  margin: .25rem;  
+  background-color: #d6e8b8; 
+  color: #523e33;
+  font-family: 'Pathway Gothic One', sans-serif;
+  border-radius: 5px;
+  border-style: solid; 
+  border-width: 2px;
+  border-color: #523E33;
+  overflow: auto; 
+}
+
+/* Logo Styling */
+
+.logo {
+  width: 8%;
+  align-content: flex-start; 
+  height: auto; 
+  float: left; 
+  display: block; 
+  padding-right: 2rem; 
+}
+
+/* Header Styling */
+header, footer { 
+  width: 100%;
+  background-color: #94C841;
+  margin: 0px;
+  padding: 1rem 1rem 1rem 1rem; 
+  clear: both; 
+}
+
+.Site-Name {
+  margin: 0.25rem; 
+  padding-top: 1rem; 
+  font-size: 3rem; 
+  color: #523E33; 
+}
+
+.cta { 
+  text-align: right; 
+}
+
+.cta a:hover {
+  color: white; 
+  padding-right: 2rem; 
+}
+
+/*  Navigation Style */
+
+nav {
+  width: 100%;
+  display: block;
+  float: left;  
+  margin: 0; 
+  font-size: 2rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  overflow: hidden;  
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem; 
+  background-color: #94887E; 
+}
+
+ul.topnav li {
+  display: inline-block; 
+  color: black;
+  font-size: 2rem; 
+}
+
+ul.topnav li a {
+  text-align: center; 
+  padding: .5rem; 
+  text-decoration: none; 
+  font-size: 1.5rem;
+}
+
+ul.topnav li a:hover{
+  color: white;
+}
+
 /* Start Body Styles */
-p {
+
+.class {
+  width: 25%;
+  height: auto; 
+  padding: .5rem; 
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none; 
+  color: #523E33; 
+}
+
+.courses {
+  margin: 2rem; 
+  padding: 1rem; 
+  color: white; 
+  clear: both; 
+}
+
+p { 
+  clear: both; 
+  margin: 0; 
+  padding: 0;
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 1.5em;
+  border-style: solid; 
+  border-radius: 10px;
+  text-align: left; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,15 +121,118 @@ h1, h2, h3, h4, h5, h6 {
   color: #818181; 
 }
 
-/* Button 1 */
-.btn {
-  background-color: dodgerblue;
+.policy { 
+  width: 100%; 
+  font-size: .75rem; 
+  background-color: #94887E;
+  margin: 0;
+  padding: 1rem;
   font-family: 'Pathway Gothic One', sans-serif;
-  border: none; 
-  color: white; 
-  padding: 10px 20px; 
+  background-color: #94887E;
+  overflow: hidden;
+
+}
+
+.policy-title {
+  color: #523E33; 
+  font-size: 1.25rem; 
+  padding-bottom: .5rem;
+  text-decoration: underline; 
+}
+
+.class-info {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 1rem; 
+  display: block;
+}
+
+ul.class-info li {
+  display: inline-block; 
+  padding: .25rem; 
+  font-size: 1.2rem; 
+}
+
+h3 {
+  padding-top: .5rem;
+  padding-bottom: .5rem; 
+  color: #523E33; 
+}
+
+.About { 
+  clear: both; 
+  margin: 0; 
+  padding: 2rem;
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: left;
+}
+
+.About p {
+  padding-bottom: 2rem; 
+}
+
+/* Button 1 Style */
+.btn {
+  background-color: #d6e8b8; 
+  color: #523e33;
+  font-family: 'Pathway Gothic One', sans-serif;
+  border-radius: 10px;
+  border: none;  
+  padding: 10px 25px; 
   text-align: center; 
   text-decoration: none; 
   display: inline-block; 
   font-size: 1em; 
+}
+
+/* Footer Styling */
+footer {
+  font-family: 'Pathway Gothic One', sans-serif;
+  width: 100%;
+  display: block;  
+  margin: 0; 
+  font-size: 2rem;
+}
+
+.contact {
+  float: right; 
+  display: inline-block;
+  margin-right: 5rem; 
+  padding-right: 2rem; 
+  font-size: 1.2rem;
+  list-style-type: none;
+  }
+
+.contact h4 {
+  color: #523E33;
+}
+
+.social {
+  clear: both;
+  width: 100%;
+  display: block; 
+  margin: 0; 
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+.social {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem; 
+  text-align: center; 
+}
+
+.social li {
+  display: inline-block; 
+  color: #523E33;
+  font-size: 2rem; 
+}
+
+.social li a {
+  text-align: center; 
+  padding: .5rem; 
+  text-decoration: none; 
+  font-size: 1.5rem;
+  color:  #523E33;
 }
