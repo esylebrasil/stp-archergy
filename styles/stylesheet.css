@@ -39,7 +39,8 @@ header, footer {
 }
 
 .cta { 
-  text-align: right; 
+  text-align: right;
+  padding-right: 2rem; 
 }
 
 .cta a:hover {
